@@ -1,0 +1,210 @@
+@font-face {
+    font-family: 'OpenSuns-Regular';
+    src: url(assets/fonts/OpenSans-Regular/OpenSans-Regular.woff2) format('woff2'), 
+    	 url(assets/fonts/OpenSans-Regular/OpenSans-Regular.woff) format('woff');
+    font-weight: ;
+    font-style: normal
+}
+
+@font-face {
+    font-family: 'OpenSuns-Bold';
+    src: url(assets/fonts/OpenSans-Bold/OpenSans-Bold.woff2) format('woff2'), 
+     	 url(assets/fonts/OpenSans-Bold/OpenSans-Bold.woff) format('woff');
+    font-weight: ;
+    font-style: normal
+}
+
+@font-face {
+    font-family: 'Vollkorn-Semibold';
+    src: url(assets/fonts/Vollkorn-Semibold/Vollkorn-Semibold.woff2) format('woff2'), 
+         url(assets/fonts/Vollkorn-Semibold/Vollkorn-Semibold.woff) format('woff');
+    font-weight: ;
+    font-style: italic
+}
+
+@font-face {
+    font-family: 'Vollkorn-Bold';
+    src: url(assets/fonts/Vollkorn-Bold/Vollkorn-Bold.woff2) format('woff2'), 
+    	 url(assets/fonts/Vollkorn-Bold/Vollkorn-Bold.woff) format('woff');
+    font-weight: ;
+    font-style: normal
+}
+
+@font-face {
+    font-family: 'Merriweather-Black';
+    src: url(assets/fonts/Merriweather-Black/Merriweather-Black.woff2) format('woff2'), 
+    	 url(assets/fonts/Merriweather-Black/Merriweather-Black.woff) format('woff');
+    font-weight: ;
+    font-style: normal
+}
+
+
+@font-face {
+    font-family: 'Barlow-Bold';
+    src: url(assets/fonts/Barlow-Bold/barlow-bold-webfont.woff2) format('woff2'), 
+    	 url(assets/fonts/Barlow-Bold/barlow-bold-webfont.woff) format('woff');
+    font-weight:;
+    font-style: normal
+}
+@font-face {
+    font-family: 'Barlow-Extrabold';
+    src: url(assets/fonts/Barlow-Medium/barlow-medium-webfont.woff2) format('woff2'), 
+         url(assets/fonts/Barlow-Medium/barlow-medium-webfont.woff) format('woff');
+    font-weight: ;
+    font-style: normal
+}
+
+
+@font-face {
+    font-family: 'BarlowCondensed-Bold';
+    src: url(assets/fonts/BarlowCondensed-Bold/barlowcondensed-bold-webfont.woff2) format('woff2'), 
+    	 url(assets/fonts/BarlowCondensed-Bold/barlowcondensed-bold-webfont.woff) format('woff');
+    font-weight: ;
+    font-style: normal
+}
+
+
+
+*,
+*:focus,
+.btn,
+.btn:focus {
+    outline: 0!important;
+    text-decoration: none
+}
+
+a,
+button,
+input {
+    outline: 0;
+    border: 0;
+    -ms-transition: all .3s ease;
+    -webkit-transition: all .3s ease;
+    transition: all .3s ease
+}
+
+a,
+a:hover,
+a:focus,
+button:hover,
+button:focus {
+    text-decoration: none;
+    outline: 0
+}
+
+body {
+    background: #fff;
+    color: #000;
+    font-size: 22px;
+    line-height: 1.2;
+    font-family: 'OpenSuns-Regular';
+    background: url(assets/images/body-bg.jpg)
+}
+
+img {
+    max-width: 100%;
+    height: auto
+}
+
+.ulc {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.overlay-link {
+    position: absolute;
+    left: 0;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 10
+}
+
+.container {
+    max-width: 1200px;
+    width: 100%
+}
+
+.hide-md {
+    display: block!important
+}
+
+.show-md {
+    display: none!important
+}
+
+.hide-sm {
+    display: block!important
+}
+
+.show-sm {
+    display: none!important
+}
+
+.hide-xs {
+    display: block!important
+}
+
+.show-xs {
+    display: none!important
+}
+
+p {
+    margin-bottom: 26px
+}
+
+a {
+    word-wrap: break-word
+}
+
+.plr-30 {
+    padding-left: 30px!important;
+    padding-right: 30px!important
+}
+
+.plr-10 {
+    padding-left: 10px!important;
+    padding-right: 10px!important
+}
+
+.ye-page-bdy-controller {
+    max-width: 1170px;
+    margin: 0 auto;
+    background: #fff
+}
+
+.ye-page-bdy-controller {
+    -webkit-box-shadow: 0 5px 12px 0 rgba(180, 179, 179, 1);
+    -moz-box-shadow: 0 5px 12px 0 rgba(180, 179, 179, 1);
+    box-shadow: 0 5px 12px 0 rgba(180, 179, 179, 1)
+}
+
+h1 {
+    font-size: 48px
+}
+
+h2 {
+    font-size: 45px
+}
+h3 {
+    font-size: 40px
+}
+h5 {
+    font-size: 25px
+}
+
+.h1,
+.h2,
+.h3,
+.h4,
+.h5,
+.h6,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    line-height: 1.2
+}
