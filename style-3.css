@@ -116,6 +116,13 @@ box-shadow: 0px 0px 7px 1px rgba(207,205,205,1);
     padding: 20px 10px 30px;
     background-repeat: repeat-x!important;
     border-radius: 5px 5px 0 0;
+    text-shadow: 0px 2px #019bd4;
+}
+.order1 .fl-pkg-grd-col-hdr span{
+    text-shadow: 0px 2px #b82121;
+}
+.order2 .fl-pkg-grd-col-hdr span{
+    text-shadow: 0px 2px #27caae;
 }
 .fl-pkg-grd-col-hdr strong{
     padding: 0 10px 12px 10px;
@@ -296,4 +303,5 @@ box-shadow: 0px 0px 7px 1px rgba(207,205,205,1);
 }
 .fl-ftr-des{
     color: #6a6a6a;
+    padding: 0 10px;
 }
