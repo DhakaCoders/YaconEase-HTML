@@ -48,20 +48,24 @@
     color: #fff;
 }
 .fl-pkg-sec-hdr h2{
-    font-family: 'calisMTbol';
-    margin-bottom: 75px;
+    font-family: 'Merriweather-Black';
+    margin-bottom: 85px;
     margin-top: 0;
-    font-weight: 600;
+    color: #000;
 }
 .fl-pkg-grd-controller > ul > li{
     float: left;
     width: 33.333%;
-    padding: 0 6px;
+    padding: 0 10px;
 }
+
 .fl-pkg-grd-col-btm-bdr{
     background: #097298;
     border-radius: 8px;
     padding-bottom: 4px;
+-webkit-box-shadow: 0px 0px 7px 1px rgba(207,205,205,1);
+-moz-box-shadow: 0px 0px 7px 1px rgba(207,205,205,1);
+box-shadow: 0px 0px 7px 1px rgba(207,205,205,1);
 }
 .fl-pkg-grd-col{
     padding-bottom: 5px;
@@ -87,7 +91,7 @@
 }
 .fl-pkg-grd-controller > ul > li:nth-child(2) .fl-pkg-grd-col-fea-img{
     padding-bottom: 20px;
-    padding-top: 25px;
+    padding-top: 45px;
 }
 .fl-pkg-grd-controller > ul > li:nth-child(2) .fl-pkg-grd-ftr{
     padding-top: 25px;
@@ -124,7 +128,7 @@
     margin: 0 auto;
     position: relative;
     display: table;
-    padding: 15px;
+    padding: 28px 15px 15px;
 }
 .fl-pkg-grd-col-fea-img div{
     display: inline-block;
@@ -133,7 +137,14 @@
 .fl-pkg-grd-col-fea-img span{
     position: absolute;
     right: 15px;
-    top: 13px;
+    top: 33px;
+}
+.order3 .fl-pkg-grd-col-fea-img span{
+    right: -37px;
+}
+.order1 .fl-pkg-grd-col-fea-img span {
+    top: 70px;
+    right: 32px;
 }
 .fl-pkg-grd-col{
     background: #f7f7f7;
@@ -151,9 +162,9 @@
 .fl-pkg-price:before {
     content: "$";
     position: absolute;
-    left: -2px;
-    top: -13px;
-    font-size: 50px;
+    left: 3px;
+    top: -7px;
+    font-size: 42px;
     line-height: 100%;
     font-family: 'Barlow-Bold';
     margin-right: 2px;
@@ -190,8 +201,8 @@
 }
 .fl-pkg-price sub {
     position: absolute;
-    right: 3px;
-    font-size: 40px;
+    right: -5px;
+    font-size: 38px;
     bottom: 9px;
     font-family: 'BarlowCondensed-Regular';
 }
