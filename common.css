@@ -7,6 +7,14 @@
 }
 
 @font-face {
+    font-family: 'OpenSans-Semibold';
+    src: url(assets/fonts/OpenSans-Semibold/OpenSans-Semibold.woff2) format('woff2'), 
+         url(assets/fonts/OpenSans-Semibold/OpenSans-Semibold.woff) format('woff');
+    font-weight: ;
+    font-style: normal
+}
+
+@font-face {
     font-family: 'OpenSuns-Bold';
     src: url(assets/fonts/OpenSans-Bold/OpenSans-Bold.woff2) format('woff2'), 
      	 url(assets/fonts/OpenSans-Bold/OpenSans-Bold.woff) format('woff');
