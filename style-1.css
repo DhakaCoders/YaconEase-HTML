@@ -114,15 +114,14 @@ header.ye-hdr {
 .special-offer-con h4 {
     color:#fff;
     margin-top: 0;
-    margin-bottom: 40px;
-    margin-top: 0;
+    margin-bottom: 18px;
 }
 
 .special-offer-con h1 {
     font-family: 'Vollkorn-Bold';
     color: #ffec49;
     margin-top: 0;
-    margin-bottom: 55px;
+    margin-bottom: 20px;
     text-shadow: 1px 3px 4px #000;
     line-height: 1.2;
 }
