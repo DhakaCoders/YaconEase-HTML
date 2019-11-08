@@ -91,7 +91,7 @@ header.ye-hdr {
     height: 14px;
     width: 100%;
     position: absolute;
-    background: #f39620;
+    background: #18ecc8;
     left: 0;
     right: 0;
     border-radius: 50px;
@@ -103,9 +103,8 @@ header.ye-hdr {
     font-family: 'Vollkorn-Semibold';
     background-repeat: no-repeat!important;
     background-size: cover!important;
-    background-position: center center!important;
     text-align: left;
-    padding: 55px 365px 55px 30px;
+    padding: 82px 365px 90px 30px;
     color: #fff;
     margin-left: -15px;
     margin-right: -15px;
@@ -113,14 +112,12 @@ header.ye-hdr {
 
 .special-offer-con h4 {
     color:#fff;
-    margin-top: 0;
     margin-bottom: 18px;
 }
 
 .special-offer-con h1 {
     font-family: 'Vollkorn-Bold';
     color: #ffec49;
-    margin-top: 0;
     margin-bottom: 20px;
     text-shadow: 1px 3px 4px #000;
     line-height: 1.2;
