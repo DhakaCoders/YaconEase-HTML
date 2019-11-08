@@ -99,10 +99,40 @@ header.ye-hdr {
 }
 
 
+.special-offer-con {
+    font-family: 'Vollkorn-Semibold';
+    background-repeat: no-repeat!important;
+    background-size: cover!important;
+    background-position: center center!important;
+    text-align: left;
+    padding: 55px 365px 55px 30px;
+    color: #fff;
+    margin-left: -15px;
+    margin-right: -15px;
+}
 
+.special-offer-con h4 {
+    color:#fff;
+    margin-top: 0;
+    margin-bottom: 40px;
+    margin-top: 0;
+}
 
-
-
+.special-offer-con h1 {
+    font-family: 'Vollkorn-Bold';
+    color: #ffec49;
+    margin-top: 0;
+    margin-bottom: 55px;
+    text-shadow: 1px 3px 4px #000;
+    line-height: 1.2;
+}
+  
+.special-offer-con span {
+    font-size: 26px;
+    display: inline-block;
+    vertical-align: baseline;
+    margin-bottom: 10px;
+}
 
 
 
