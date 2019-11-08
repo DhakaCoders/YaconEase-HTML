@@ -55,6 +55,20 @@
     font-style: normal
 }
 @font-face {
+    font-family: 'BarlowCondensed-Regular';
+    src: url(assets/fonts/BarlowCondensed-Regular/BarlowCondensed-Regular.woff2) format('woff2'), 
+         url(assets/fonts/BarlowCondensed-Regular/BarlowCondensed-Regular.woff) format('woff');
+    font-weight:;
+    font-style: normal
+}
+@font-face {
+    font-family: 'Barlow-Medium';
+    src: url(assets/fonts/Barlow-Medium/Barlow-Medium.woff2) format('woff2'), 
+         url(assets/fonts/Barlow-Medium/Barlow-Medium.woff) format('woff');
+    font-weight:;
+    font-style: normal
+}
+@font-face {
     font-family: 'Barlow-Extrabold';
     src: url(assets/fonts/Barlow-Medium/barlow-medium-webfont.woff2) format('woff2'), 
          url(assets/fonts/Barlow-Medium/barlow-medium-webfont.woff) format('woff');
