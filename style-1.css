@@ -1,4 +1,4 @@
-header.ye-hdr {
+header.fl-hdr {
     background: #fff;
     -ms-transition: all 0.5s ease;
     -webkit-transition: all 0.5s ease;
@@ -9,26 +9,21 @@ header.ye-hdr {
     position: relative;
     z-index: 5
 }
-
 .header-innr {
     background: #fff;
     padding: 12px 0
 }
-
 .hdr-left,
 .hdr-rgt {
     width: 50%;
     float: left
 }
-
 .hdr-left {
     padding-right: 30px
 }
-
 .hdr-rgt {
     text-align: right
 }
-
 .hdr-logo,
 .secure-img{
     display: inline-block;
@@ -38,55 +33,47 @@ header.ye-hdr {
 .header .secure-img {
     max-width: 225px
 }
-.ye-hdr img{
+.fl-hdr img{
     width: 100%
 }
-
-
-
-.ye-shipping {
+.fl-shipping {
     padding-bottom: 25px;
     background: #fff;
     box-sizing: border-box;
     position: relative
 }
-
-.ye-shipping img {
+.fl-shipping img {
     display: inline-block;
     position: relative;
     top: 41px;
     width: 57px;
     height: 57px
 }
-
-.ye-shipping .two_sec img {
+.fl-shipping .two_sec img {
     top: 34px;
     width: 71px;
     height: 71px
 }
-
-.ye-shipping-col {
+.fl-shipping-col {
     width: 33.333%;
     float: left;
     padding-left: 7px;
     padding-right: 7px
 }
-
-.ye-shipping h4 {
+.fl-shipping h4 {
     color: #000;
-    font-family: Montserrat-SemiBold;
+    font-family: 'OpenSans-Regular';
     text-transform: uppercase;
     font-size: 24px;
     margin-top: 56px;
     width: 100%
 }
-
-.ye-shipping .two_sec>h4 {
-    font-family: Montserrat-Bold;
+.fl-shipping .two_sec>h4 {
+    font-family: 'OpenSans-Bold';
     margin-top: 42px
 }
 
-.ye-shipping:before {
+.fl-shipping:before {
     content: "";
     height: 14px;
     width: 100%;
@@ -97,43 +84,51 @@ header.ye-hdr {
     border-radius: 50px;
     top: 63px
 }
-
-
-.special-offer-con {
+.special-offer-con-wrp {
     font-family: 'Vollkorn-Semibold';
-    background-repeat: no-repeat!important;
-    background-size: cover!important;
+    position: relative;
     text-align: left;
     padding: 82px 365px 90px 30px;
     color: #fff;
     margin-left: -15px;
     margin-right: -15px;
+    z-index: 1
 }
-
-.special-offer-con h4 {
+.special-offer-con {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-repeat: no-repeat!important;
+    background-size: cover!important;
+    background-position: center center!important;
+    z-index: 2
+}
+.special-offer-dsc{
+    position: relative;
+    z-index: 3
+}
+.special-offer-con-wrp h4 {
     color:#fff;
     margin-bottom: 18px;
 }
-
-.special-offer-con h1 {
+.special-offer-con-wrp h1 {
     font-family: 'Vollkorn-Bold';
     color: #ffec49;
     margin-bottom: 20px;
     text-shadow: 1px 3px 4px #000;
     line-height: 1.2;
 }
-  
-.special-offer-con span {
+.special-offer-con-wrp span {
     font-size: 26px;
     display: inline-block;
     vertical-align: baseline;
     margin-bottom: 10px;
 }
-
-
-
-
-
+.fl-content-sec-3-wrp{
+    padding:50px 0;
+}
 
 
 
