@@ -167,12 +167,10 @@ a { word-wrap: break-word }
     padding-left: 5px!important;
     padding-right: 5px!important
 }
-.ye-page-bdy-controller {
+.fl-page-bdy-controller {
     max-width: 1170px;
     margin: 0 auto;
     background: #fff
-}
-.ye-page-bdy-controller {
     -webkit-box-shadow: 0 5px 12px 0 rgba(180, 179, 179, 1);
     -moz-box-shadow: 0 5px 12px 0 rgba(180, 179, 179, 1);
     box-shadow: 0 5px 12px 0 rgba(180, 179, 179, 1)
