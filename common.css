@@ -1,5 +1,5 @@
 @font-face {
-    font-family: 'OpenSuns-Regular';
+    font-family: 'OpenSans-Regular';
     src: url(assets/fonts/OpenSans-Regular/OpenSans-Regular.woff2) format('woff2'), 
     	 url(assets/fonts/OpenSans-Regular/OpenSans-Regular.woff) format('woff');
     font-weight: ;
@@ -15,7 +15,7 @@
 }
 
 @font-face {
-    font-family: 'OpenSuns-Bold';
+    font-family: 'OpenSans-Bold';
     src: url(assets/fonts/OpenSans-Bold/OpenSans-Bold.woff2) format('woff2'), 
      	 url(assets/fonts/OpenSans-Bold/OpenSans-Bold.woff) format('woff');
     font-weight: ;
