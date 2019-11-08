@@ -7,11 +7,14 @@
 .fl-ftr-top-sec-rgt-img{
     text-align: right;
 }
+.fl-ftr-top-sec-rgt-img img{
+    margin-top: -10px;
+}
 .fl-ftr-top-sec strong{
     display: block;
     text-decoration: underline;
-    color: #203ca4;
-    font-family: 'Montserrat-SemiBold';
+    color: #0055e3;
+    font-family: 'OpenSans-Semibold';
     padding-bottom: 50px;
     padding-top: 20px;
     font-size: 18px;
@@ -71,7 +74,7 @@
     background: #d50001;
 }
 .fl-pkg-grd-controller > ul > li:nth-child(3) .fl-pkg-grd-col-btm-bdr{
-    background: #7523c6;
+    background: #1dad94;
 }
 .fl-pkg-grd-controller > ul > li:nth-child(2) .fl-pkg-grd-col{
     padding-bottom: 10px;
@@ -171,7 +174,7 @@
     -webkit-transform: translateY(-50%);
 }
 .fl-pkg-price strong {
-    font-size: 70px;
+    font-size: 68px;
     line-height: 58px;
     font-weight: normal;
     font-family: 'Barlow-Bold';
