@@ -249,6 +249,9 @@ result-show-sec-wrp
 .profile-show-wrp ul li{
 	border: 5px solid #ececec;
 	margin-bottom: 20px;
+	-webkit-box-shadow: 1px 2px 5px 1px rgba(180, 179, 179, 1);
+    -moz-box-shadow: 1px 2px 5px 1px rgba(180, 179, 179, 1);
+    box-shadow: 1px 2px 5px 1px rgba(180, 179, 179, 1);
 }
 .profile-show-inr{
 	padding: 20px 20px;
@@ -299,6 +302,12 @@ result-show-sec-wrp
 	}
 	.paired-root-sec-wrp .rare-root-feature-des {
 	    padding-right: 245px !important;
+	}
+	.ye-microbiome-sec-wrp .hh-two-grid-rgt-dsc {
+	    padding-right: 0;
+	}
+	.ye-microbiome-sec-wrp .ye-two-grid-rgt-img {
+	    padding-left: 0;
 	}
 }
  
