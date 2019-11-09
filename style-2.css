@@ -141,9 +141,9 @@ paired-root-sec-wrp
     height: 25px;
     z-index: 2;
 }
-.paired-root-sec-wrp:after{
+/*.paired-root-sec-wrp:after{
 	background: url(assets/images/stock-out-sec-bg-btm-2.jpg);
-}
+}*/
 .paired-root-sec-wrp .rare-root-feature-wrp{
 	padding-left: 15px;
 }
@@ -289,9 +289,16 @@ result-show-sec-wrp
 	.ye-title-headding h2 br{
 		display: none;
 	}
+	.paired-root-sec-wrp .rare-root-feature-des h2,
 	.yacon-root-headding h2{
 		font-size: 36px;
 		line-height: 46px;
+	}
+	.paired-root-sec-wrp .rare-root-feature-des p {
+	    padding-right: 0 !important;
+	}
+	.paired-root-sec-wrp .rare-root-feature-des {
+	    padding-right: 245px !important;
 	}
 }
  
@@ -314,6 +321,7 @@ result-show-sec-wrp
 	    padding-left: 0;
 	    padding-bottom: 30px;
 	}
+	.paired-root-sec-wrp .rare-root-feature-des h2,
 	.yacon-root-headding h2{
 		font-size: 32px;
 		line-height: 44px;
@@ -327,6 +335,17 @@ result-show-sec-wrp
 	    padding-right: 15px;
 	    padding-left: 15px;
 	}
+	.paired-root-sec-wrp .rare-root-feature-des p {
+	    padding-right: 0 !important;
+	}
+	.paired-root-sec-wrp .rare-root-feature-wrp ul li .rare-root-feature-des {
+	    margin-bottom: 30px;
+	}
+	.paired-root-sec-wrp .rare-root-feature-wrp {
+	    padding-bottom: 0;
+	    padding-left: 0;
+	}
+	
 
 
 	
@@ -347,6 +366,7 @@ result-show-sec-wrp
 	    font-size: 28px;
 	    line-height: 34px;
 	}
+	.paired-root-sec-wrp .rare-root-feature-des h2,
 	.ye-title-headding h2{
 		font-size: 30px;
 		line-height: 38px;
@@ -378,6 +398,45 @@ result-show-sec-wrp
 	.prd-tp-50{
 		margin-bottom: 30px;
 	}
+	.paired-root-sec-wrp .rare-root-feature-des h2{
+		margin-bottom: 20px;
+	}
+	.paired-root-sec-wrp .rare-root-feature-wrp ul li .rare-root-feature-des{
+		padding:25px 15px !important; 
+	}
+	.paired-root-sec-wrp {
+	    padding-top: 40px;
+	    padding-bottom: 20px;
+	}
+	.health-risks-dsc p {
+	    padding-left: 0;
+	    padding-right: 0;
+	}
+	.health-risks-grd-wrp li{
+		margin-bottom: 15px;
+	}
+	.dft-text-module p:last-child {
+	    padding-bottom: 10px;
+	}
+	.profile-show-inr {
+	    padding: 20px 10px;
+	}
+	.profile-show-wrp {
+	    padding-left: 0;
+	    padding-right: 0;
+	}
+	.profile-dsc h5 {
+	    font-size: 20px;
+	    line-height: 22px;
+	}
+	.profile-show-inr blockquote{
+		font-size: 18px;
+		line-height: 22px;
+	}
+	.health-risks-grd-wrp li:nth-child(4) .health-risks-dsc p {
+	    padding-left: 0;
+	    padding-right: 0;
+	}
 }
 
 
@@ -402,6 +461,7 @@ result-show-sec-wrp
 		font-size: 24px;
 		line-height: 30px;
 	}
+	.paired-root-sec-wrp .rare-root-feature-des h2,
 	.ye-title-headding h2{
 		font-size: 24px;
 		line-height: 30px;
@@ -410,6 +470,10 @@ result-show-sec-wrp
 		font-size: 17px;
 		line-height: 21px;
 		padding-left: 40px;
+	}
+	.profile-dsc h5 {
+	    font-size: 18px;
+	    line-height: 20px;
 	}
 }
 
