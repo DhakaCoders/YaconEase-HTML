@@ -4,32 +4,6 @@ yacon-ease-content-7
 -----------------------
 */
 
-.yacon-ease-content-7 strong {
-    display: block;
-    text-decoration: underline;
-    color: #203ca4;
-    font-family: 'Montserrat-SemiBold';
-    padding-bottom: 50px;
-    font-size: 18px;
-    line-height: 22px;
-    text-align: center;
-}
-.ye-pkg-sec-ftr-des{
-    float: left;
-    position: relative;
-    padding-right: 260px;
-    padding-bottom: 60px;
-}
-.ye-pkg-sec-ftr-des span{
-    display: inline-block;
-    vertical-align: baseline;
-    position: absolute;
-    right: 0;
-    top: 0;
-}
-
-
-
 
 /*
 ------------------------

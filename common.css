@@ -1,5 +1,5 @@
 @font-face {
-    font-family: 'OpenSuns-Regular';
+    font-family: 'OpenSans-Regular';
     src: url(assets/fonts/OpenSans-Regular/OpenSans-Regular.woff2) format('woff2'), 
     	 url(assets/fonts/OpenSans-Regular/OpenSans-Regular.woff) format('woff');
     font-weight: ;
@@ -7,7 +7,15 @@
 }
 
 @font-face {
-    font-family: 'OpenSuns-Bold';
+    font-family: 'OpenSans-Semibold';
+    src: url(assets/fonts/OpenSans-Semibold/OpenSans-Semibold.woff2) format('woff2'), 
+         url(assets/fonts/OpenSans-Semibold/OpenSans-Semibold.woff) format('woff');
+    font-weight: ;
+    font-style: normal
+}
+
+@font-face {
+    font-family: 'OpenSans-Bold';
     src: url(assets/fonts/OpenSans-Bold/OpenSans-Bold.woff2) format('woff2'), 
      	 url(assets/fonts/OpenSans-Bold/OpenSans-Bold.woff) format('woff');
     font-weight: ;
@@ -47,6 +55,20 @@
     font-style: normal
 }
 @font-face {
+    font-family: 'BarlowCondensed-Regular';
+    src: url(assets/fonts/BarlowCondensed-Regular/BarlowCondensed-Regular.woff2) format('woff2'), 
+         url(assets/fonts/BarlowCondensed-Regular/BarlowCondensed-Regular.woff) format('woff');
+    font-weight:;
+    font-style: normal
+}
+@font-face {
+    font-family: 'Barlow-Medium';
+    src: url(assets/fonts/Barlow-Medium/Barlow-Medium.woff2) format('woff2'), 
+         url(assets/fonts/Barlow-Medium/Barlow-Medium.woff) format('woff');
+    font-weight:;
+    font-style: normal
+}
+@font-face {
     font-family: 'Barlow-Extrabold';
     src: url(assets/fonts/Barlow-Medium/barlow-medium-webfont.woff2) format('woff2'), 
          url(assets/fonts/Barlow-Medium/barlow-medium-webfont.woff) format('woff');
@@ -63,55 +85,38 @@
     font-style: normal
 }
 
-
-
-*,
-*:focus,
-.btn,
-.btn:focus {
+*,*:focus,.btn,.btn:focus {
     outline: 0!important;
     text-decoration: none
 }
-
-a,
-button,
-input {
+a,button,input {
     outline: 0;
     border: 0;
     -ms-transition: all .3s ease;
     -webkit-transition: all .3s ease;
     transition: all .3s ease
 }
-
-a,
-a:hover,
-a:focus,
-button:hover,
-button:focus {
+a,a:hover,a:focus,button:hover,button:focus {
     text-decoration: none;
     outline: 0
 }
-
 body {
     background: #fff;
     color: #000;
     font-size: 22px;
     line-height: 1.2;
-    font-family: 'OpenSuns-Regular';
+    font-family: 'OpenSans-Regular';
     background: url(assets/images/body-bg.jpg)
 }
-
 img {
     max-width: 100%;
     height: auto
 }
-
 .ulc {
     margin: 0;
     padding: 0;
     list-style: none;
 }
-
 .overlay-link {
     position: absolute;
     left: 0;
@@ -120,16 +125,13 @@ img {
     bottom: 0;
     z-index: 10
 }
-
 .container {
     max-width: 1200px;
     width: 100%
 }
-
 .hide-md {
     display: block!important
 }
-
 .show-md {
     display: none!important
 }
@@ -137,74 +139,62 @@ img {
 .hide-sm {
     display: block!important
 }
-
 .show-sm {
     display: none!important
 }
-
 .hide-xs {
     display: block!important
 }
-
 .show-xs {
     display: none!important
 }
-
-p {
-    margin-bottom: 26px
-}
-
-a {
-    word-wrap: break-word
-}
+p { margin-bottom: 26px }
+a { word-wrap: break-word }
 
 .plr-30 {
     padding-left: 30px!important;
     padding-right: 30px!important
 }
-
+.plr-20 {
+    padding-left: 20px!important;
+    padding-right: 20px!important
+}
 .plr-10 {
     padding-left: 10px!important;
     padding-right: 10px!important
 }
-
-.ye-page-bdy-controller {
+.plr-5{
+    padding-left: 5px!important;
+    padding-right: 5px!important
+}
+.dst-ml-15 {
+    margin-left: -15px;
+}
+.fl-page-bdy-controller{
     max-width: 1170px;
     margin: 0 auto;
-    background: #fff
-}
-
-.ye-page-bdy-controller {
+    background: #fff;
     -webkit-box-shadow: 0 5px 12px 0 rgba(180, 179, 179, 1);
     -moz-box-shadow: 0 5px 12px 0 rgba(180, 179, 179, 1);
     box-shadow: 0 5px 12px 0 rgba(180, 179, 179, 1)
 }
-
 h1 {
     font-size: 48px
 }
-
 h2 {
     font-size: 45px
 }
 h3 {
     font-size: 40px
 }
+h4 {
+    font-size: 30px
+}
 h5 {
     font-size: 25px
 }
 
-.h1,
-.h2,
-.h3,
-.h4,
-.h5,
-.h6,
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
-    line-height: 1.2
+.h1,.h2,.h3,.h4,.h5,.h6,h1,h2,h3,h4,h5,h6 {
+    margin-top: 0;
+    line-height: 1.2;
 }
