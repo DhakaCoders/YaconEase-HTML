@@ -258,73 +258,74 @@ p .fl-txt-line-bg{
     padding-bottom: 145px;
 }
 .rare-root-feature-wrp ul li{
-    margin-bottom: 40px;
     position: relative;
+    padding-bottom: 55px;
+}
+.rare-root-feature-wrp ul li:nth-child(2n+2){
+    padding-top: 55px;
+    padding-bottom: 42px;
+}
+.fl-content-sec-5-wrp .rare-root-feature-wrp ul li {
+    padding-bottom: 90px;
 }
 .rare-root-feature-wrp ul li .rare-root-feature-des{
     width:75%;
     float: left;
     padding:25px;
+    padding-bottom: 35px;
     border: 10px solid #000;
     position: relative;
-    z-index: 2
-}
-.rare-root-feature-wrp ul li .rare-root-feature-pera{
-    padding-right: 250px;
-}
-.rare-root-feature-wrp ul li .rare-root-feature-des{
-    width:75%;
-    float: left;
-    padding:25px;
-    border: 10px solid #000;
-    position: relative;
-    z-index: 2
-}
-.rare-root-feature-wrp ul li img{
-    position: absolute;
-    right:20px;
-    bottom:-20%; 
-    z-index: 3;
-}
-.fl-content-sec-5-wrp .rare-root-feature-wrp ul li img {
-    bottom: -32%;
+    z-index: 2;
 }
 .rare-root-feature-wrp ul li:nth-child(2n+2) .rare-root-feature-des {
     float: right;
     padding-left: 240px;
 }
-
+.rare-root-feature-wrp ul li .rare-root-feature-pera{
+    padding-right: 250px;
+}
 .rare-root-feature-wrp ul li:nth-child(2n+2) .rare-root-feature-pera{
     padding-right: 0;
+}
+.rare-root-feature-wrp ul li img{
+    position: absolute;
+    right:20px;
+    bottom:-15px; 
+    z-index: 3;
+}
+.rare-root-feature-wrp ul li:nth-child(2n+2) img{
+    right:auto;
+    top:-15px; 
+    bottom:100%; 
+    left:20px;
 }
 .rare-root-feature-pera p:last-child{
     margin-bottom: 0;
 }
-.rare-root-feature-wrp ul li:nth-child(2n+2) img{
-    position: absolute;
-    right:auto;
-    top:-20%; 
-    bottom:100%; 
-    left:20px;
+
+/*.fl-content-sec-5-wrp .rare-root-feature-wrp ul li img {
+    bottom: -32%;
 }
+
+
+.fl-content-sec-5-wrp .rare-root-feature-wrp ul li:nth-child(1){
+    margin-bottom: 120px;
+}
+.fl-content-sec-5-wrp .rare-root-feature-wrp ul li:nth-child(3) img {
+    bottom: -10%;
+}*/
+
+
+
+
+
+
 .rare-root-feature-head h2{
     font-family: 'Merriweather-Black';
 }
 .rare-root-feature-head h2 span{
     color: #1fba9f;
 }
-.fl-content-sec-5-wrp .rare-root-feature-wrp ul li:nth-child(1){
-    margin-bottom: 120px;
-}
-.fl-content-sec-5-wrp .rare-root-feature-wrp ul li:nth-child(3) img {
-    bottom: -10%;
-}
-
-
-
-
-
-
 
 
 
