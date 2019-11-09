@@ -1,8 +1,4 @@
-/*
---------------------------
-pos-powerful-sec
---------------------------
-*/
+
 .pos-powerful-sec{
     padding-top: 75px;
     padding-bottom: 50px;
@@ -15,11 +11,6 @@ pos-powerful-sec
 .pos-powerful-sec .out-stock-sec-hdr h2{
 	margin-bottom: 10px;
 }
-/*
-------------------------
-ye-microbiome-sec-wrp
-------------------------
-*/
 .ye-microbiome-sec-wrp{
 	padding-top: 60px;
 	padding-bottom: 20px;
@@ -41,11 +32,6 @@ ye-microbiome-sec-wrp
 .ye-microbiome-sec-wrp .hh-two-grid-rgt-dsc{
 	padding-right: 35px;
 }
-/*
---------------------
-yacon-root-sec-wrp
---------------------
-*/
 .yacon-root-sec-wrp{
 	padding-bottom: 35px;
 }
@@ -108,11 +94,6 @@ yacon-root-sec-wrp
     padding-top: 20px;
     margin-bottom: 60px;
 }
-/*
-----------------------
-paired-root-sec-wrp
-----------------------
-*/
 .paired-root-sec-wrp {
     padding-top: 60px;
     position: relative;
@@ -230,11 +211,6 @@ paired-root-sec-wrp
 	padding-left: 10px;
 	padding-right: 10px;
 } 
-/*
--------------------
-result-show-sec-wrp
--------------------
-*/
 .profile-show-sec-wrp{
 	padding-top: 45px;
 	padding-bottom: 20px;
