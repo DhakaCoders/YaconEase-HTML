@@ -62,7 +62,7 @@ header.fl-hdr {
 }
 .fl-shipping h4 {
     color: #000;
-    font-family: 'OpenSans-Regular';
+    font-family: 'OpenSans-Semibold';
     text-transform: uppercase;
     font-size: 24px;
     margin-top: 56px;
@@ -88,9 +88,11 @@ header.fl-hdr {
     font-family: 'Vollkorn-Semibold';
     position: relative;
     text-align: center;
-    padding: 82px 20px 90px;
+    padding: 82px 20px 100px;
     color: #fff;
-    z-index: 1
+    z-index: 1;
+    margin-left: -15px;
+    margin-right: -15px;
 }
 .special-offer-con {
     position: absolute;
@@ -117,16 +119,15 @@ header.fl-hdr {
     color: #ffec49;
     margin-bottom: 20px;
     text-shadow: 1px 3px 4px #000;
-    line-height: 1.2;
+    line-height: 1.3;
 }
 .special-offer-con-wrp span {
     font-size: 26px;
     display: inline-block;
     vertical-align: baseline;
-    margin-bottom: 10px;
 }
 .fl-content-sec-3-wrp{
-    padding:50px 0;
+    padding:50px 0 38px;
     background: #fff;
 }
 
@@ -171,6 +172,15 @@ p .fl-txt-line-bg{
     padding-left: 15px;
     padding-right: 15px;
 }
+.fl-supercharges-des p .fl-txt-line-bg {
+    margin-right: -20px;
+    margin-left: -20px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 5px;
+
+}
+
 .fl-content-sec-4-head{
     background-repeat: no-repeat!important;
     background-position: center center!important;
@@ -180,9 +190,11 @@ p .fl-txt-line-bg{
     text-align: center;
     color:#fff;
     font-family: 'Merriweather-Black';
+    margin-bottom: 30px;
 }
-.fl-content-sec-4-head h3{
+.fl-content-sec-4-head h3 {
     margin-bottom: 0;
+    letter-spacing: -0.8px;
 }
 .ye-advanced-des p .fl-txt-line-bg {
     margin-right: -8px;
@@ -233,7 +245,9 @@ p .fl-txt-line-bg{
     -moz-box-shadow: 0px 4px 11px -5px rgba(0,0,0,0.75);
     box-shadow: 0px 4px 11px -5px rgba(0,0,0,0.75);
 }*/
-
+.rare-root-head{
+    padding: 32px 0 10px;
+}
 .rare-root-head h2{
     font-family: 'Merriweather-Black';  
 }
@@ -244,35 +258,48 @@ p .fl-txt-line-bg{
     padding-bottom: 145px;
 }
 .rare-root-feature-wrp ul li{
-    margin-bottom: 20px;
+    margin-bottom: 40px;
     position: relative;
 }
 .rare-root-feature-wrp ul li .rare-root-feature-des{
     width:75%;
     float: left;
-    padding-top:25px;
-    padding-bottom: 25px;
-    padding-left: 25px;
-    padding-right: 275px;
+    padding:25px;
     border: 10px solid #000;
     position: relative;
     z-index: 2
 }
-
+.rare-root-feature-wrp ul li .rare-root-feature-pera{
+    padding-right: 250px;
+}
+.rare-root-feature-wrp ul li .rare-root-feature-des{
+    width:75%;
+    float: left;
+    padding:25px;
+    border: 10px solid #000;
+    position: relative;
+    z-index: 2
+}
 .rare-root-feature-wrp ul li img{
     position: absolute;
     right:20px;
     bottom:-20%; 
     z-index: 3;
 }
+.fl-content-sec-5-wrp .rare-root-feature-wrp ul li img {
+    bottom: -32%;
+}
 .rare-root-feature-wrp ul li:nth-child(2n+2) .rare-root-feature-des {
     float: right;
-    padding-top:25px;
-    padding-bottom: 25px;
-    padding-left: 275px;
-    padding-right: 25px;
+    padding-left: 240px;
 }
 
+.rare-root-feature-wrp ul li:nth-child(2n+2) .rare-root-feature-pera{
+    padding-right: 0;
+}
+.rare-root-feature-pera p:last-child{
+    margin-bottom: 0;
+}
 .rare-root-feature-wrp ul li:nth-child(2n+2) img{
     position: absolute;
     right:auto;
@@ -280,10 +307,213 @@ p .fl-txt-line-bg{
     bottom:100%; 
     left:20px;
 }
+.rare-root-feature-head h2{
+    font-family: 'Merriweather-Black';
+}
+.rare-root-feature-head h2 span{
+    color: #1fba9f;
+}
+.fl-content-sec-5-wrp .rare-root-feature-wrp ul li:nth-child(1){
+    margin-bottom: 120px;
+}
+.fl-content-sec-5-wrp .rare-root-feature-wrp ul li:nth-child(3) img {
+    bottom: -10%;
+}
 
 
 
 
+
+
+
+
+
+
+@media(max-width: 1199px){
+
+
+}
+ 
+
+@media(max-width: 991px){
+
+    .fl-shipping h4 {
+        font-size: 18px
+    }
+    .special-offer-con-wrp h2 {
+        font-size: 32px;
+        line-height: 1.2;
+    }
+    .special-offer-con-wrp span {
+        font-size: 20px;
+    }
+    .fl-content-sec-3-img {
+        width: 100%;
+        text-align: center;
+        margin-bottom: 25px;
+    }
+    .fl-content-sec-3-wrp img {
+        max-width: 450px;
+    }
+    .fl-content-sec-3-des {
+        width: 100%;
+        padding-left: 0;
+        padding-right: 0;
+    }
+    .fl-content-sec-4-head h3 br{
+        display: none;
+    }
+
+    .fl-supercharges-des {
+        width: 100%;
+        float: left;
+        padding-left: 0;
+    }
+    .fl-supercharges-two-part ul li:nth-child(2n+1) .fl-supercharges-des {
+        padding-right: 0;
+    }
+    .fl-supercharges-two-part ul li:nth-child(2n+1) .fl-supercharges-img {
+        float: left;
+    }
+    .fl-supercharges-img {
+        width: 100%;
+        margin-bottom: 25px;
+    }
+    .rare-root-feature-wrp ul li {
+        position: static;
+        text-align: center;
+    }
+    .rare-root-feature-wrp ul li img {
+        position: static;
+    }
+    .rare-root-feature-wrp ul li:nth-child(2n+2) img {
+        position: static;
+    }
+    .rare-root-feature-wrp ul li .rare-root-feature-des {
+        width: 100%;
+        float: left;
+        margin-top: 25px;
+        padding: 25px!important;
+        border: 8px solid #000;
+    }
+    .rare-root-feature-wrp ul li .rare-root-feature-pera {
+        padding-right: 0;
+    }
+
+}
+
+@media (max-width:830px){
+    .fl-shipping h4 {
+        font-size: 16px
+    }
+
+}
+
+@media(max-width: 767px){
+    .special-offer-con-wrp h2 {
+        font-size: 28px;
+    }
+    .special-offer-con-wrp {
+        padding: 50px 20px 60px;
+    }
+    .fl-supercharges-des p .fl-txt-line-bg {
+        margin-right: -10px;
+        margin-left: -10px;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+    .rare-root-head h2 br{
+        display: none;
+    }
+    .fl-content-sec-5-wrp .rare-root-feature-wrp ul li:first-child {
+        margin-bottom: 40px;
+    }
+    .rare-root-feature-wrp ul li{
+        margin-bottom: 40px;
+    }
+}
+
+
+
+@media(max-width: 639px){
+    .fl-shipping .two_sec img {
+        width: 65px;
+        height: 65px
+    }
+    
+    .fl-shipping img {
+        width: 50px;
+        height: 50px
+    }
+    .rare-root-feature-wrp ul li .rare-root-feature-des {
+        border: 4px solid #000;
+    }    
+}
+ 
+
+
+@media(max-width: 575px){
+    .hdr-logo, .secure-img {
+        display: inline-block;
+        vertical-align: baseline;
+        max-width: 120px;
+    }
+    .special-offer-con-wrp span {
+        font-size: 18px;
+    }
+}
+
+
+@media(max-width:479px) {
+    .fl-shipping-progress-bar {
+        margin-top: -10px
+    }
+    
+    .fl-shipping {
+        margin-left: -15px;
+        margin-right: -15px;
+        padding-bottom: 12px
+    }
+    
+    .fl-shipping h4 {
+        font-size: 14px
+    }
+    
+    .fl-shipping:before {
+        height: 12px
+    }
+    
+    .fl-shipping-col {
+        width: 30%;
+        float: left
+    }
+    
+    .fl-shipping-col.two_sec {
+        width: 40%;
+        float: left
+    }
+    
+    .fl-shipping-col.two_sec span {
+        display: block
+    }
+}
+
+@media(max-width: 359px){
+    .fl-shipping-col {
+        width: 27%;
+        float: left
+    }
+    
+    .fl-shipping-col.two_sec {
+        width: 46%;
+        float: left
+    }
+    .hdr-logo, .secure-img {
+        display: inline-block;
+        vertical-align: baseline;
+        max-width: 100px;
+    }
+}
 
 
 
