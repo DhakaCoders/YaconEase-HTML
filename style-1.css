@@ -303,23 +303,6 @@ p .fl-txt-line-bg{
     margin-bottom: 0;
 }
 
-/*.fl-content-sec-5-wrp .rare-root-feature-wrp ul li img {
-    bottom: -32%;
-}
-
-
-.fl-content-sec-5-wrp .rare-root-feature-wrp ul li:nth-child(1){
-    margin-bottom: 120px;
-}
-.fl-content-sec-5-wrp .rare-root-feature-wrp ul li:nth-child(3) img {
-    bottom: -10%;
-}*/
-
-
-
-
-
-
 .rare-root-feature-head h2{
     font-family: 'Merriweather-Black';
 }
@@ -387,20 +370,27 @@ p .fl-txt-line-bg{
     .rare-root-feature-wrp ul li img {
         position: static;
     }
-    .rare-root-feature-wrp ul li:nth-child(2n+2) img {
-        position: static;
-    }
     .rare-root-feature-wrp ul li .rare-root-feature-des {
         width: 100%;
-        float: left;
-        margin-top: 25px;
+        float: left!important;
         padding: 25px!important;
+        margin-top: 20px;
         border: 8px solid #000;
     }
     .rare-root-feature-wrp ul li .rare-root-feature-pera {
         padding-right: 0;
     }
-
+    .rare-root-feature-wrp ul li{
+        padding-top: 0;
+        padding-bottom: 40px;
+    }    
+    .rare-root-feature-wrp ul li:nth-child(2n+2){
+        padding-top: 0;
+        padding-bottom: 40px;
+    }
+    .fl-content-sec-5-wrp .rare-root-feature-wrp ul li {
+        padding-bottom: 0;
+    }
 }
 
 @media (max-width:830px){
@@ -426,12 +416,7 @@ p .fl-txt-line-bg{
     .rare-root-head h2 br{
         display: none;
     }
-    .fl-content-sec-5-wrp .rare-root-feature-wrp ul li:first-child {
-        margin-bottom: 40px;
-    }
-    .rare-root-feature-wrp ul li{
-        margin-bottom: 40px;
-    }
+
 }
 
 
