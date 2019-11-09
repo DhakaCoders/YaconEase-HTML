@@ -225,9 +225,9 @@
 .profile-show-wrp ul li{
 	border: 5px solid #ececec;
 	margin-bottom: 20px;
-	-webkit-box-shadow: 1px 2px 5px 1px rgba(180, 179, 179, 1);
-    -moz-box-shadow: 1px 2px 5px 1px rgba(180, 179, 179, 1);
-    box-shadow: 1px 2px 5px 1px rgba(180, 179, 179, 1);
+	-webkit-box-shadow: 6px 7px 4px -4px rgba(209,209,209,1);
+    -moz-box-shadow: 6px 7px 4px -4px rgba(209,209,209,1);
+    box-shadow: 6px 7px 4px -4px rgba(209,209,209,1)
 }
 .profile-show-inr{
 	padding: 20px 20px;
