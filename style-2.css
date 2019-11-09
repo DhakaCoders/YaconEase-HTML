@@ -128,6 +128,8 @@ paired-root-sec-wrp
     background-repeat: repeat-x;
     height: 13px;
     z-index: 2;
+    background-position: center center;
+    background-size: 100% 100%;
 }
 .pos-powerful-sec:after,
 .paired-root-sec-wrp:after{
@@ -140,19 +142,21 @@ paired-root-sec-wrp
     background-repeat: repeat-x;
     height: 25px;
     z-index: 2;
+    background-position: center center;
+    background-size: 100% 100%;
 }
-/*.paired-root-sec-wrp:after{
+.paired-root-sec-wrp:after{
 	background: url(assets/images/stock-out-sec-bg-btm-2.jpg);
-}*/
-.paired-root-sec-wrp .rare-root-feature-wrp{
-	padding-left: 15px;
+	background-position: center center;
+    background-size: 100% 100%;
+
 }
 .paired-root-sec-wrp .rare-root-feature-wrp ul li .rare-root-feature-des{
 	border-color: #fff;
 }
 
 .paired-root-sec-wrp .rare-root-feature-des{
-	padding-right: 95px !important;
+	padding-right: 90px !important;
 }
 .paired-root-sec-wrp .rare-root-feature-des h2{
 	margin: 0;
@@ -187,7 +191,7 @@ paired-root-sec-wrp
 }
 .health-risks-grd-wrp li {
 	width: 100%;
-	max-width: 370px;
+	max-width: 368px;
 	display: inline-block;
 	vertical-align: top;
 	margin-bottom: 30px;
@@ -234,10 +238,6 @@ result-show-sec-wrp
 .profile-show-sec-wrp{
 	padding-top: 45px;
 	padding-bottom: 20px;
-}
-.profile-show-wrp{
-	padding-left: 15px;
-	padding-right: 15px;
 }
 .profile-show-headding h2{
 	margin: 0;
@@ -397,7 +397,7 @@ result-show-sec-wrp
 	.ye-two-grid-rgt-dsc ul li{
 		font-size: 18px;
 		line-height: 22px;
-		padding-bottom: 10px;
+		padding-bottom: 15px;
 		padding-left: 45px;
 	}
 	.ye-two-grid-rgt-img{
