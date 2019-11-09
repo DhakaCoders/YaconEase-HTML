@@ -163,6 +163,10 @@ a { word-wrap: break-word }
     padding-left: 10px!important;
     padding-right: 10px!important
 }
+.plr-15 {
+    padding-left: 15px!important;
+    padding-right: 15px!important
+}
 .plr-5{
     padding-left: 5px!important;
     padding-right: 5px!important
@@ -250,7 +254,6 @@ h5 {
         font-size: 18px
     } 
 
-    
 }
 
 
