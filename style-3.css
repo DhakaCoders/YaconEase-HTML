@@ -3,9 +3,34 @@
     padding-bottom: 20px;
     background-size: cover!important;
     background-position: center!important;
-    background-repeat: repeat-x!important;
+    background-repeat: no-repeat!important;
     color: #fff;
+    position: relative;
 }
+.out-stock-sec:before{
+    content: "";
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    background: url(assets/images/stock-out-sec-bg-top.jpg);
+    background-repeat: repeat-x;
+    height: 13px;
+    z-index: 2;
+}
+
+.out-stock-sec:after{
+    content: "";
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: url(assets/images/stock-out-sec-bg-btm.jpg);
+    background-repeat: repeat-x;
+    height: 25px;
+    z-index: 2;
+}
+
 .out-stock-sec-hdr h2{
     font-size: 40px;
     font-family: 'Merriweather-Black';
@@ -118,6 +143,35 @@
     -moz-box-shadow: 0px 0px 7px 1px rgba(207,205,205,1);
     box-shadow: 0px 0px 7px 1px rgba(207,205,205,1);
 }
+.fl-pkg-grd-col-bdr-solid{
+    position: relative;
+}
+.fl-pkg-grd-col-bdr-solid:before,
+.fl-pkg-grd-col-bdr-solid:after{
+    content: "";
+    background: #bdd4dc;
+    position: absolute;
+    top: 4px;
+    bottom: 2px;
+    width: 1px;
+    z-index: 1;
+}
+.order1 .fl-pkg-grd-col-bdr-solid:before,
+.order1 .fl-pkg-grd-col-bdr-solid:after{
+    background: #ded4d4;
+}
+.order2 .fl-pkg-grd-col-bdr-solid:before,
+.order2 .fl-pkg-grd-col-bdr-solid:after{
+    background: #c6dbd7;
+    top: 10px;
+}
+.fl-pkg-grd-col-bdr-solid:before{
+    left: -1px;
+}
+.fl-pkg-grd-col-bdr-solid:after{
+    right: 0;
+}
+
 .fl-pkg-grd-col{
     padding-bottom: 5px;
     position: relative;
