@@ -1,27 +1,27 @@
 Desktop
 ----------------
 1. https://www.screencast.com/t/CCcirKx1
-	ai khane akta shadow ache
+	ai khane akta shadow ache --done
 2. https://www.screencast.com/t/MhE3XMLIeF
-	ai p ar text mileni
+	ai p ar text mileni --done
 3. https://www.screencast.com/t/xbGgorEufo
-	ai khane gap hobe
+	ai khane gap hobe --done
 4. https://www.screencast.com/t/Az34s4eTu
-	ai redius mileni 8px dite paro
+	ai redius mileni 8px dite paro --done
 5. https://www.screencast.com/t/eeBb3Y7BQ1K
-	italic hobe. span ar vitor em tag dhukao . and design koro j  p .fl-txt-line-bg> span > em 
+	italic hobe. span ar vitor em tag dhukao . and design koro j  p .fl-txt-line-bg> span > em  --done
 6. https://www.screencast.com/t/XJ2V9GWPpZ
-	ai site a gap besi . ai img ar parent a text-align right dite paro
+	ai site a gap besi . ai img ar parent a text-align right dite paro(padding diye manage korchi) --done
 7. https://www.screencast.com/t/IUu9KeIq
-	ai khane text line break gulo mileni
+	ai khane text line break gulo mileni --done
 8. https://www.screencast.com/t/bLSKDLmxE40x
-	arround Shadow missing.
-	ai section ta valo manage hoyni valo moto. aktu valo kore check kore fix koro
+	arround Shadow missing. --done
+	ai section ta valo manage hoyni valo moto. aktu valo kore check kore fix koro --done
 9. https://www.screencast.com/t/wkDosvlBo
-	gap besi
+	gap besi --done
 10. https://www.screencast.com/t/u121KDlM
-	text break thik nai
+	text break thik nai --done
 11. https://www.screencast.com/t/xkLrF6dO
-	text mileni
+	text mileni --done
 12. https://www.screencast.com/t/vxlz0csKwLR
-	gap besi
+	gap besi >>>>>  etar padding bottom ta thak porer section er padding top ta bad dile maybe valo hoy

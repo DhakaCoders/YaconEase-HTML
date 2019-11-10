@@ -295,7 +295,7 @@ header.fl-hdr {
     font-family: 'Vollkorn-Semibold';
     position: relative;
     text-align: center;
-    padding: 82px 20px 100px;
+    padding: 86px 20px 110px;
     color: #fff;
     z-index: 1;
     margin-left: -15px;
@@ -347,6 +347,7 @@ header.fl-hdr {
     float: left; 
     padding-left: 30px;  
     padding-right: 25px; 
+    padding-top: 10px;
 }
 .fl-content-sec-3-wrp img{
     width: 100%;
@@ -367,8 +368,7 @@ header.fl-hdr {
     
 }
 
-p .fl-txt-line-bg{
-    font-family: 'OpenSans-Bold';
+p .fl-txt-line-bg {
     display: inline-block;
     vertical-align: baseline;
     background-repeat: no-repeat!important;
@@ -379,21 +379,31 @@ p .fl-txt-line-bg{
     padding-left: 15px;
     padding-right: 15px;
 }
+p .fl-txt-line-bg > em{
+    font-family: 'OpenSans-Bold';
+    display: inline-block;
+    vertical-align: baseline;
+}
 .fl-supercharges-des p .fl-txt-line-bg {
     margin-right: -20px;
     margin-left: -20px;
-    padding-left: 20px;
-    padding-right: 20px;
+    padding-left: 15px;
+    padding-right: 15px;
     padding-bottom: 5px;
-
 }
-
+.fl-content-sec-4-innr{
+    -webkit-box-shadow: 1px 1px 15px -11px rgba(0,0,0,0.75);
+    -moz-box-shadow: 1px 1px 15px -11px rgba(0,0,0,0.75);
+    box-shadow: 1px 1px 15px -11px rgba(0,0,0,0.75);
+    border-radius: 8px;
+    padding-bottom: 20px;
+}
 .fl-content-sec-4-head{
     background-repeat: no-repeat!important;
     background-position: center center!important;
     background-size: cover!important;
     padding: 20px 0 30px;
-    border-radius: 4px;
+    border-radius: 8px;
     text-align: center;
     color:#fff;
     font-family: 'Merriweather-Black';
@@ -403,48 +413,38 @@ p .fl-txt-line-bg{
     margin-bottom: 0;
     letter-spacing: -0.8px;
 }
-.ye-advanced-des p .fl-txt-line-bg {
-    margin-right: -8px;
-    margin-left: -8px;
-    padding-left: 8px;
-    padding-right: 8px;
-}
-.ye-advanced-des ul{
-
-}
-.ye-advanced-des li{
-    position: relative;
-    padding-left: 46px;
-    padding-bottom: 25px;
-}
-.ye-advanced-des li img{
-    position:absolute;
-    max-width: 30px;
-    width:100%;
-    top:0;
-    left: 0;
-}
-
 
 .fl-supercharges-img{
     width:50%;
     float: left;
+    text-align: left;
 }
 
 .fl-supercharges-des{
     width:50%;
     float: left;
-    padding-left: 28px;
+    padding-left: 24px;
 }
 
 
-
+.fl-supercharges-two-part{
+    
+}
+.fl-supercharges-two-part ul li{
+    padding-left: 30px;
+    padding-right: 30px;
+}
+.fl-supercharges-two-part ul li:first-child{
+    padding-left: 30px;
+    padding-right: 15px;
+}
 .fl-supercharges-two-part ul li:nth-child(2n+1) .fl-supercharges-img {
     float: right;
+    text-align:  right;
 }
 .fl-supercharges-two-part ul li:nth-child(2n+1) .fl-supercharges-des {
     padding-left: 0;
-    padding-right: 28px;
+    padding-right: 24px;
 }
 .rare-root-head{
     padding: 32px 0 10px;
@@ -456,7 +456,7 @@ p .fl-txt-line-bg{
     color:#1fba9f;
 }
 .rare-root-feature-wrp{
-    padding-bottom: 145px;
+    padding-bottom: 55px;
 }
 .rare-root-feature-wrp ul li{
     position: relative;
@@ -481,6 +481,7 @@ p .fl-txt-line-bg{
 .rare-root-feature-wrp ul li:nth-child(2n+2) .rare-root-feature-des {
     float: right;
     padding-left: 240px;
+    padding-right: 45px;
 }
 .rare-root-feature-wrp ul li .rare-root-feature-pera{
     padding-right: 250px;
