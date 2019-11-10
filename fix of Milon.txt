@@ -1,0 +1,14 @@
+Desktop
+----------------
+1. https://www.screencast.com/t/Sbpy99X4p
+	text line brk mileni
+2. https://www.screencast.com/t/QRLU0PuN
+	gap besi
+3. https://www.screencast.com/t/lgZnMsib
+	lazy load hobe
+4. https://www.screencast.com/t/UrbGktBCit3
+	ai gulo hobena. aigulo to img ta load hole amnitei asbe. r agulo diye rakhle age thakei img load jabe. so aigulo badh dite hobe jkhane jkhane ache.
+5. https://www.screencast.com/t/3UsSuqEnHb
+	box shadow 2 ta airokom corner thake start hobe
+6. https://www.screencast.com/t/33ox2Do1F
+	ai icon ta top thake ato namay daw
