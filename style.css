@@ -872,6 +872,9 @@ p .fl-txt-line-bg > em{
     vertical-align: baseline;
     padding-right: 4px;
 }
+.fl-pkg-section-1 .pkg-area-con-bg{
+    padding-top: 0;
+}
 .fl-pkg-sec-ftr-des{
     padding-top: 65px;
     text-align: left;
@@ -1401,6 +1404,9 @@ p .fl-txt-line-bg > em{
     }
     .out-stock-sec-hdr h2{
         font-size: 35px;
+    }
+    p br{
+        display: none;
     }
 
 }
