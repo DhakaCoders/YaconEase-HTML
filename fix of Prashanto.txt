@@ -35,7 +35,8 @@ Desktop
 	font-family: 'OpenSans-BoldItalic';  daw convert kore
 14. https://www.screencast.com/t/KjKIScm0T
 	ai text shadow ta besi hoye geche
-
+15. https://www.screencast.com/t/xmczpC7q1
+  aikhane ata ki lagteche? airokom aro src ache khuje dekho tomar section gulote
 
 Responsive
 -------------------
