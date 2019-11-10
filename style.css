@@ -23,6 +23,13 @@
 }
 
 @font-face {
+    font-family: 'OpenSans-BoldItalic';
+    src: url(assets/fonts/OpenSans-BoldItalic/OpenSans-BoldItalic.woff2) format('woff2'), 
+         url(assets/fonts/OpenSans-BoldItalic/OpenSans-BoldItalic.woff) format('woff');
+    font-weight: ;
+    font-style: normal
+}
+@font-face {
     font-family: 'Vollkorn-Semibold';
     src: url(assets/fonts/Vollkorn-Semibold/Vollkorn-Semibold.woff2) format('woff2'), 
          url(assets/fonts/Vollkorn-Semibold/Vollkorn-Semibold.woff) format('woff');
@@ -325,7 +332,7 @@ header.fl-hdr {
     font-size: 44px;
     color: #ffec49;
     margin-bottom: 20px;
-    text-shadow: 1px 3px 4px #000;
+    text-shadow: 1px 3px 7px #000;
     line-height: 1.3;
 }
 .special-offer-con-wrp span {
@@ -380,7 +387,7 @@ p .fl-txt-line-bg {
     padding-right: 15px;
 }
 p .fl-txt-line-bg > em{
-    font-family: 'OpenSans-Bold';
+    font-family: 'OpenSans-BoldItalic';
     display: inline-block;
     vertical-align: baseline;
 }
@@ -402,7 +409,7 @@ p .fl-txt-line-bg > em{
     background-repeat: no-repeat!important;
     background-position: center center!important;
     background-size: cover!important;
-    padding: 20px 0 30px;
+    padding: 20px 10px 30px;
     border-radius: 8px;
     text-align: center;
     color:#fff;
@@ -1204,6 +1211,13 @@ p .fl-txt-line-bg > em{
     .show-md{
         display: block!important;
     }
+    .fl-content-sec-4-head h3 br{
+        display: none;
+    }
+    .rare-root-feature-wrp ul li:nth-child(2n+2) .rare-root-feature-des {
+        padding-left: 260px;
+        padding-right: 25px;
+    }
     .pos-powerful-sec .out-stock-sec-hdr h2 br{
         display: none;
     }
@@ -1295,10 +1309,12 @@ p .fl-txt-line-bg > em{
     }
     .fl-supercharges-two-part ul li:nth-child(2n+1) .fl-supercharges-img {
         float: left;
+        text-align: center;
     }
     .fl-supercharges-img {
         width: 100%;
         margin-bottom: 25px;
+        text-align: center;
     }
     .rare-root-feature-wrp ul li {
         position: static;
@@ -1313,6 +1329,9 @@ p .fl-txt-line-bg > em{
         padding: 25px!important;
         margin-top: 20px;
         border: 8px solid #000;
+    }
+    .rare-root-feature-pera{
+        text-align: left;
     }
     .rare-root-feature-wrp ul li .rare-root-feature-pera {
         padding-right: 0;

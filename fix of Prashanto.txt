@@ -32,23 +32,23 @@ Desktop
 13.https://www.screencast.com/t/c7sBVVf8a
 	font-family mileni
 	font-style: normal;
-	font-family: 'OpenSans-BoldItalic';  daw convert kore
+	font-family: 'OpenSans-BoldItalic';  daw convert kore --done
 14. https://www.screencast.com/t/KjKIScm0T
 	ai text shadow ta besi hoye geche
 15. https://www.screencast.com/t/xmczpC7q1
-  aikhane ata ki lagteche? airokom aro src ache khuje dekho tomar section gulote
+  aikhane ata ki lagteche? airokom aro src ache khuje dekho tomar section gulote --done
 
 Responsive
 -------------------
 1. https://www.screencast.com/t/d4At1sbH
-	i) left and right a lage jasche. padding daw
-	ii) ai heading ar br none kore daw 1199px; a
+	i) left and right a lage jasche. padding daw --done
+	ii) ai heading ar br none kore daw 1199px; a --done
 2.https://www.screencast.com/t/1peSyb8k
-	991 a img ta center a hobe
-	nicher section tao same
+	991 a img ta center a hobe --done
+	nicher section tao same --done
 3. https://www.screencast.com/t/GKnE5rrk
-	ai text gulo center a na . left ai daw. 
+	ai text gulo center a na . left ai daw. --done 
 4. https://www.screencast.com/t/Mwnrbm9HkOF
-	ai p text gulo center a na . left ai daw. heading center a thak
+	ai p text gulo center a na . left ai daw. heading center a thak --done
 5. https://www.screencast.com/t/qndfiavixrYi
-	img ar sathe text lage geche
+	img ar sathe text lage geche --done 
