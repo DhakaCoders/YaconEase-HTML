@@ -1,0 +1,22 @@
+Desktop
+----------------
+1. https://www.screencast.com/t/CCcirKx1
+	ai khane akta shadow ache
+2. https://www.screencast.com/t/MhE3XMLIeF
+	ai p ar text mileni
+3. https://www.screencast.com/t/xbGgorEufo
+	ai khane gap hobe
+4. https://www.screencast.com/t/Az34s4eTu
+	ai redius mileni 8px dite paro
+5. https://www.screencast.com/t/eeBb3Y7BQ1K
+	italic hobe. span ar vitor em tag dhukao . and design koro j  p .fl-txt-line-bg> span > em 
+6. https://www.screencast.com/t/XJ2V9GWPpZ
+	ai site a gap besi . ai img ar parent a text-align right dite paro
+7. https://www.screencast.com/t/IUu9KeIq
+	ai khane text line break gulo mileni
+8. https://www.screencast.com/t/bLSKDLmxE40x
+	arround Shadow missing.
+	ai section ta valo manage hoyni valo moto. aktu valo kore check kore fix koro
+9. https://www.screencast.com/t/wkDosvlBo
+	gap besi
+
