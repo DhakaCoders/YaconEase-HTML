@@ -463,7 +463,7 @@ p .fl-txt-line-bg > em{
     color:#1fba9f;
 }
 .rare-root-feature-wrp{
-    padding-bottom: 55px;
+    padding-bottom: 35px;
 }
 .rare-root-feature-wrp ul li{
     position: relative;
@@ -647,10 +647,15 @@ p .fl-txt-line-bg > em{
     right: 0;
     bottom: -1px;
     background: url(assets/images/stock-out-sec-bg-btm.jpg);
-    background-repeat: repeat-x !important;
     height: 25px;
     z-index: 2;
-    background-size: cover !important;
+    background-position: center center!important;
+    background-repeat:repeat-x!important;
+}
+.paired-root-sec-wrp:after{
+    top: 100%;
+    margin-top: -5px;
+    height: 24px;
 }
 .paired-root-sec-wrp:after{
     background: url(assets/images/stock-out-sec-bg-btm-2.jpg);

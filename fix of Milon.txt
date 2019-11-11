@@ -8,6 +8,7 @@ Desktop
 	ai gulo hobena. aigulo to img ta load hole amnitei asbe. r agulo diye rakhle age thakei img load jabe. so aigulo badh dite hobe jkhane jkhane ache.
 4. https://www.screencast.com/t/3UsSuqEnHb
 	box shadow 2 ta airokom corner thake start hobe
+
 5. https://www.screencast.com/t/33ox2Do1F
 	ai icon ta top thake ato namay daw
 
@@ -29,3 +30,11 @@ Desktop
 10. https://www.screencast.com/t/KDkgifN7y
 	line break text gulo mileni. right or left  a aktu padding baray manage korte paro
 	left a padding 25 hobe. right jeta lage daw
+
+
+New
+---------------------
+11. https://www.screencast.com/t/PzdVL3uB
+	img milnei
+12. https://www.screencast.com/t/sy0AeKOaG
+	gap besi
