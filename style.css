@@ -816,7 +816,7 @@ p .fl-txt-line-bg > em{
     position: absolute;
     left: 0;
     right: 0;
-    bottom: 0;
+    bottom: -24px;
     background: url(assets/images/stock-out-sec-bg-btm.jpg);
     background-repeat: repeat-x;
     height: 25px;
