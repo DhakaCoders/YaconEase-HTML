@@ -397,6 +397,9 @@ p .fl-txt-line-bg > em{
     padding-left: 15px;
     padding-right: 15px;
     padding-bottom: 5px;
+    background-size: 100% 100%!important;
+    background-position: center center!important;
+    background-repeat: no-repeat!important;
 }
 .fl-content-sec-4-innr{
     -webkit-box-shadow: 1px 1px 15px -11px rgba(0,0,0,0.75);
@@ -409,7 +412,7 @@ p .fl-txt-line-bg > em{
     background-repeat: no-repeat!important;
     background-position: center center!important;
     background-size: cover!important;
-    padding: 20px 10px 30px;
+    padding: 20px 15px 30px;
     border-radius: 8px;
     text-align: center;
     color:#fff;
@@ -514,6 +517,7 @@ p .fl-txt-line-bg > em{
 
 .rare-root-feature-head h2{
     font-family: 'Merriweather-Black';
+    margin-bottom: 25px;
 }
 .rare-root-feature-head h2 span{
     color: #1fba9f;
@@ -573,7 +577,9 @@ p .fl-txt-line-bg > em{
     padding: 40px 15px 25px;
     background-repeat: no-repeat !important;
     background-size: 100% 100% !important;
-    background-position: center center !important;
+    background-position: center bottom !important;
+    margin-left: -2px;
+    margin: -2px;
 }
 .yacon-root-headding h2{
     margin: 0;
@@ -645,7 +651,7 @@ p .fl-txt-line-bg > em{
     position: absolute;
     left: 0;
     right: 0;
-    bottom: -1px;
+    bottom: -20px;
     background: url(assets/images/stock-out-sec-bg-btm.jpg);
     height: 25px;
     z-index: 2;
@@ -704,7 +710,7 @@ p .fl-txt-line-bg > em{
     max-width: 368px;
     display: inline-block;
     vertical-align: top;
-    margin-bottom: 30px;
+    margin-bottom: 10px;
 }
 .health-risks-grd-wrp li:nth-child(3n+1){
     clear: left !important;
@@ -741,7 +747,7 @@ p .fl-txt-line-bg > em{
     padding-right: 10px;
 } 
 .profile-show-sec-wrp{
-    padding-top: 45px;
+    padding-top: 60px;
     padding-bottom: 20px;
 }
 .profile-show-headding h2{
@@ -759,7 +765,7 @@ p .fl-txt-line-bg > em{
     box-shadow: 2px 2px 4px 1px  rgba(209,209,209,1)
 }
 .profile-show-inr {
-    padding: 20px 48px 20px 25px;
+    padding: 20px 46px 20px 25px;
 }
 .profile-dsc{
     padding-left: 65px;
@@ -844,6 +850,9 @@ p .fl-txt-line-bg > em{
     color: #000;
     padding: 2px 20px 4px 15px;
 }
+.dft-text-module p span{
+    padding-bottom: 6px;
+}
 .dft-text-module p:last-child{
     padding-bottom: 18px;
 }
@@ -909,7 +918,7 @@ p .fl-txt-line-bg > em{
 .fl-pkg-sec-bg-hdr{
     background-repeat: no-repeat!important;
     background-size: cover!important;
-    background-position: center center!important;
+    background-position: center bottom!important;
     border-radius: 8px 8px 0 0;
     margin-bottom: 85px;
     padding: 20px 20px 25px;
@@ -1252,7 +1261,26 @@ p .fl-txt-line-bg > em{
     }
 
 }
- 
+@media(max-width: 1023px){
+    .width-100-1024,
+    .fl-supercharges-img,
+    .fl-supercharges-des{
+        width: 100%!important;
+    }
+    .out-stock-sec-grd-img-1{
+        padding-bottom: 20px;
+    }
+    .ye-two-grid-rgt-img{
+        text-align: center!important;
+        padding-bottom: 20px;
+    }
+    .fl-supercharges-img{
+        text-align: center!important;
+        margin-bottom: 0!important;
+    }
+
+}
+
 
 @media(max-width: 991px){
     .hide-sm{
@@ -1351,6 +1379,9 @@ p .fl-txt-line-bg > em{
     .fl-content-sec-5-wrp .rare-root-feature-wrp ul li {
         padding-bottom: 0;
     }
+    .paired-root-sec-wrp .rare-root-feature-des p{
+        text-align: left;
+    }
 
 
     .pos-powerful-sec .out-stock-sec-hdr h2 {
@@ -1428,7 +1459,7 @@ p .fl-txt-line-bg > em{
     .out-stock-sec-hdr h2{
         font-size: 35px;
     }
-    p br{
+    p br,.profile-show-inr blockquote br{
         display: none;
     }
 
