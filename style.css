@@ -1622,6 +1622,10 @@ p .fl-txt-line-bg > em{
     .out-stock-sec-hdr h2 {
         font-size: 25px;
     }
+    .rare-root-feature-wrp ul li .rare-root-feature-des{
+        padding-left: 15px!important;
+        padding-right: 15px!important;
+    }
 }
 
 
