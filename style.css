@@ -428,6 +428,7 @@ p .fl-txt-line-bg > em{
     width:50%;
     float: left;
     text-align: left;
+    padding-top: 10px;
 }
 
 .fl-supercharges-des{
@@ -472,12 +473,24 @@ p .fl-txt-line-bg > em{
     position: relative;
     padding-bottom: 55px;
 }
+.rare-root-feature-wrp.rare-root-feature-wrp-2 ul li{
+    padding-bottom: 70px;
+}
+.rare-root-feature-wrp.rare-root-feature-wrp-2  .rare-root-feature-1 img {
+    max-width: 400px;
+    right: 82px;
+    bottom: 10px;
+}
+
 .rare-root-feature-wrp ul li:nth-child(2n+2){
     padding-top: 55px;
     padding-bottom: 42px;
 }
 .fl-content-sec-5-wrp .rare-root-feature-wrp ul li {
     padding-bottom: 90px;
+}
+.rare-root-feature.rare-root-feature-3 .rare-root-feature-des{
+    padding-bottom: 20px;
 }
 .rare-root-feature-wrp ul li .rare-root-feature-des{
     width:75%;
@@ -570,7 +583,7 @@ p .fl-txt-line-bg > em{
     overflow: hidden;
 }
 .yacon-root-headding {
-    padding: 40px 15px 25px;
+    padding: 30px 15px 25px;
     background-repeat: no-repeat !important;
     background-size: 100% 100% !important;
     background-position: center bottom !important;
@@ -812,6 +825,9 @@ p .fl-txt-line-bg > em{
 }
 .out-stock-sec-grd-img-1{
     padding-top: 10px;
+}
+.out-stock-sec-grd-img-2{
+    padding-top: 25px;
 }
 .yacon-root-content .dft-multiline-bg p span,
 .dft-text-module p span {
@@ -1445,7 +1461,12 @@ p .fl-txt-line-bg > em{
     .profile-show-inr {
         padding: 20px 20px 20px 20px;
     }
-
+    .out-stock-sec-grd-img-2{
+        padding-top: 5px;
+    }
+    .fl-content-sec-4-head{
+        padding: 29px 15px 25px;
+    }
 }
 
 
