@@ -523,11 +523,6 @@ p .fl-txt-line-bg > em{
     color: #1fba9f;
 }
 
-
-
-
-
-
 .pos-powerful-sec{
     padding-top: 75px;
     padding-bottom: 50px;
@@ -537,6 +532,7 @@ p .fl-txt-line-bg > em{
     color: #fff;
     position: relative;
 }
+
 .pos-powerful-sec .out-stock-sec-hdr h2{
     margin-bottom: 10px;
 }
@@ -626,38 +622,46 @@ p .fl-txt-line-bg > em{
     margin-bottom: 60px;
 }
 .paired-root-sec-wrp {
+    background-color: #0a79a2;
     padding-top: 60px;
     position: relative;
     background-repeat: no-repeat !important;
     background-size: 100% 100% !important;
     background-position: center center !important;
 }
-.pos-powerful-sec:before,
-.paired-root-sec-wrp:before{
-    content: "";
+.pos-powerful-sec,
+.paired-root-sec-wrp,
+.out-stock-sec{
+    background: #0a79a2;
+    margin-top: 10px;
+}
+.pos-powerful-sec .container,
+.paired-root-sec-wrp .container,
+.out-stock-sec .container{
+    z-index: 2;
+    position: relative;
+}
+.top-wave-img{
     position: absolute;
     left: 0;
     right: 0;
     top: -1px;
-    background: url(assets/images/stock-out-sec-bg-top.jpg);
-    background-repeat: repeat-x !important;
-    height: 13px;
-    z-index: 2;
-    background-size: cover !important;
+    z-index: 1;
+    height: 470px;
+    background: center top;
+    background-repeat: repeat-x!important;
 }
-.pos-powerful-sec:after,
-.paired-root-sec-wrp:after{
-    content: "";
+.btm-wave-img{
     position: absolute;
     left: 0;
     right: 0;
-    bottom: -20px;
-    background: url(assets/images/stock-out-sec-bg-btm.jpg);
-    height: 25px;
-    z-index: 2;
-    background-position: center center!important;
-    background-repeat:repeat-x!important;
+    bottom: -1px;
+    z-index: 1;
+    height: 440px;
+    background: center bottom;
+    background-repeat: repeat-x!important;
 }
+
 .paired-root-sec-wrp:after{
     top: 100%;
     margin-top: -5px;
@@ -747,7 +751,7 @@ p .fl-txt-line-bg > em{
     padding-right: 10px;
 } 
 .profile-show-sec-wrp{
-    padding-top: 60px;
+    padding-top: 40px;
     padding-bottom: 20px;
 }
 .profile-show-headding h2{
@@ -791,11 +795,6 @@ p .fl-txt-line-bg > em{
     padding-top: 5px;
 }
 
-
-
-
-
-
 .out-stock-sec{
     padding-top: 60px;
     padding-bottom: 20px;
@@ -805,30 +804,6 @@ p .fl-txt-line-bg > em{
     color: #fff;
     position: relative;
 }
-.out-stock-sec:before{
-    content: "";
-    position: absolute;
-    left: 0;
-    right: 0;
-    top: 0;
-    background: url(assets/images/stock-out-sec-bg-top.jpg);
-    background-repeat: repeat-x;
-    height: 13px;
-    z-index: 2;
-}
-
-.out-stock-sec:after{
-    content: "";
-    position: absolute;
-    left: 0;
-    right: 0;
-    bottom: -24px;
-    background: url(assets/images/stock-out-sec-bg-btm.jpg);
-    background-repeat: repeat-x;
-    height: 25px;
-    z-index: 2;
-}
-
 .out-stock-sec-hdr h2{
     font-size: 40px;
     font-family: 'Merriweather-Black';
@@ -892,6 +867,9 @@ p .fl-txt-line-bg > em{
     vertical-align: baseline;
     padding-right: 4px;
 }
+.fl-pkg-section-1{
+    margin-top: 20px;
+}
 .fl-pkg-section-1 .pkg-area-con-bg{
     padding-top: 0;
 }
@@ -901,7 +879,7 @@ p .fl-txt-line-bg > em{
     padding-bottom: 24px;
 }
 .pkg-area-con-bg{
-    padding: 50px 0 50px;
+    padding: 45px 0 50px;
     background-size: cover!important;
     background-position: center center;
 }
