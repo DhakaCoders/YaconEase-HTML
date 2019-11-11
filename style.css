@@ -1578,7 +1578,9 @@ p .fl-txt-line-bg > em{
     .out-stock-sec-hdr h2 br{
         display: none;
     }
-
+    p{
+        margin-bottom: 20px;
+    }
 }
 
 
