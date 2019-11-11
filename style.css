@@ -1270,7 +1270,8 @@ p .fl-txt-line-bg > em{
     .out-stock-sec-grd-img-1{
         padding-bottom: 20px;
     }
-    .ye-two-grid-rgt-img{
+    .ye-two-grid-rgt-img,
+    .fl-supercharges-two-part ul li:first-child .fl-supercharges-img{
         text-align: center!important;
         padding-bottom: 20px;
     }
