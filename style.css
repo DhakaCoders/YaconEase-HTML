@@ -562,9 +562,9 @@ p .fl-txt-line-bg > em{
 }
 .yacon-root-content-wrp{
     background: #fff;
-    -webkit-box-shadow: 0 2px 5px 0 rgba(180, 179, 179, 1);
-    -moz-box-shadow: 0 2px 5px 0 rgba(180, 179, 179, 1);
-    box-shadow: 0 2px 5px 0 rgba(180, 179, 179, 1);
+    -webkit-box-shadow: -1px 1px 8px -2px rgba(180, 179, 179, 1);
+    -moz-box-shadow: -1px 1px 8px -2px rgba(180, 179, 179, 1);
+    box-shadow:-1px 1px 8px -2px rgba(180, 179, 179, 1);
     border-radius: 5px;
     position: relative;
     overflow: hidden;
@@ -622,6 +622,9 @@ p .fl-txt-line-bg > em{
 .paired-root-sec-wrp {
     padding-top: 60px;
     position: relative;
+    background-repeat: no-repeat !important;
+    background-size: 100% 100% !important;
+    background-position: center center !important;
 }
 .pos-powerful-sec:before,
 .paired-root-sec-wrp:before{
@@ -631,11 +634,10 @@ p .fl-txt-line-bg > em{
     right: 0;
     top: -1px;
     background: url(assets/images/stock-out-sec-bg-top.jpg);
-    background-repeat: repeat-x;
+    background-repeat: repeat-x !important;
     height: 13px;
     z-index: 2;
-    background-position: center center;
-    background-size: 100% 100%;
+    background-size: cover !important;
 }
 .pos-powerful-sec:after,
 .paired-root-sec-wrp:after{
@@ -645,16 +647,13 @@ p .fl-txt-line-bg > em{
     right: 0;
     bottom: -1px;
     background: url(assets/images/stock-out-sec-bg-btm.jpg);
-    background-repeat: repeat-x;
+    background-repeat: repeat-x !important;
     height: 25px;
     z-index: 2;
-    background-position: center center;
-    background-size: 100% 100%;
+    background-size: cover !important;
 }
 .paired-root-sec-wrp:after{
     background: url(assets/images/stock-out-sec-bg-btm-2.jpg);
-    background-position: center center;
-    background-size: 100% 100%;
 
 }
 .paired-root-sec-wrp .rare-root-feature-wrp ul li .rare-root-feature-des{
@@ -750,17 +749,17 @@ p .fl-txt-line-bg > em{
 .profile-show-wrp ul li{
     border: 5px solid #ececec;
     margin-bottom: 20px;
-    -webkit-box-shadow: 6px 7px 4px -4px rgba(209,209,209,1);
-    -moz-box-shadow: 6px 7px 4px -4px rgba(209,209,209,1);
-    box-shadow: 6px 7px 4px -4px rgba(209,209,209,1)
+    -webkit-box-shadow: 2px 2px 4px 1px  rgba(209,209,209,1);
+    -moz-box-shadow: 2px 2px 4px 1px rgba(209,209,209,1);
+    box-shadow: 2px 2px 4px 1px  rgba(209,209,209,1)
 }
-.profile-show-inr{
-    padding: 20px 20px;
+.profile-show-inr {
+    padding: 20px 48px 20px 25px;
 }
 .profile-dsc{
     padding-left: 65px;
     background-repeat: no-repeat;
-    background-position: left 5px top -6px;
+    background-position: left 5px top -3px;
     background-size: 54px 54px;
     padding-top: 8px;
 }
@@ -1426,6 +1425,10 @@ p .fl-txt-line-bg > em{
     }
     p br{
         display: none;
+    }
+
+    .profile-show-inr {
+        padding: 20px 20px 20px 20px;
     }
 
 }
