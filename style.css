@@ -30,6 +30,13 @@
     font-style: normal
 }
 @font-face {
+    font-family: 'OpenSansItalic';
+    src: url(assets/fonts/OpenSansItalic/OpenSansItalic.woff2) format('woff2'), 
+         url(assets/fonts/OpenSansItalic/OpenSansItalic.woff) format('woff');
+    font-weight: ;
+    font-style: normal
+}
+@font-face {
     font-family: 'Vollkorn-Semibold';
     src: url(assets/fonts/Vollkorn-Semibold/Vollkorn-Semibold.woff2) format('woff2'), 
          url(assets/fonts/Vollkorn-Semibold/Vollkorn-Semibold.woff) format('woff');
