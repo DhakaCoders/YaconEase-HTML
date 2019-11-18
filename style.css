@@ -1664,6 +1664,9 @@ p .fl-txt-line-bg > em{
         padding-left: 15px!important;
         padding-right: 15px!important;
     }
+    .rare-root-feature-wrp.rare-root-feature-wrp-2 ul li{
+        padding-bottom: 40px;
+    }
 }
 
 
