@@ -326,16 +326,6 @@ header.fl-hdr {
     background-position: center center!important;
     z-index: 2
 }
-.btm-wave-img-1{
-    position: absolute;
-    left: 0;
-    right: 0;
-    bottom: -1px;
-    z-index: 1;
-    height: 22px;
-    background-position: center bottom!important;
-    background-repeat: repeat-x!important;
-}
 .special-offer-dsc{
     position: relative;
     z-index: 3
