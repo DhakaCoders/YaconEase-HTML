@@ -299,7 +299,7 @@ header.fl-hdr {
     height: 14px;
     width: 100%;
     position: absolute;
-    background: #18ecc8;
+    background: #ff950d;
     left: 0;
     right: 0;
     border-radius: 50px;
@@ -326,6 +326,16 @@ header.fl-hdr {
     background-position: center center!important;
     z-index: 2
 }
+.btm-wave-img-1{
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: -1px;
+    z-index: 1;
+    height: 22px;
+    background-position: center bottom!important;
+    background-repeat: repeat-x!important;
+}
 .special-offer-dsc{
     position: relative;
     z-index: 3
@@ -337,7 +347,7 @@ header.fl-hdr {
 .special-offer-con-wrp h2 {
     font-family: 'Vollkorn-Bold';
     font-size: 44px;
-    color: #ffec49;
+    color: #ffcc00;
     margin-bottom: 20px;
     text-shadow: 1px 3px 7px #000;
     line-height: 1.3;
@@ -419,10 +429,10 @@ p .fl-txt-line-bg > em{
     background-repeat: no-repeat!important;
     background-position: center center!important;
     background-size: cover!important;
-    padding: 20px 15px 30px;
+    padding: 25px 15px 30px;
     border-radius: 8px;
     text-align: center;
-    color:#fff;
+    color:#000;
     font-family: 'Merriweather-Black';
     margin-bottom: 30px;
 }
@@ -471,7 +481,7 @@ p .fl-txt-line-bg > em{
     font-family: 'Merriweather-Black';  
 }
 .rare-root-head h2 span{
-    color:#1fba9f;
+    color:#00327b;
 }
 .rare-root-feature-wrp{
     padding-bottom: 35px;
@@ -496,6 +506,9 @@ p .fl-txt-line-bg > em{
 .fl-content-sec-5-wrp .rare-root-feature-wrp ul li {
     padding-bottom: 90px;
 }
+.rare-root-feature-wrp ul li.fl-content-bdr-clr .rare-root-feature-des{
+    border-color: #fdcb05;
+}
 .rare-root-feature.rare-root-feature-3 .rare-root-feature-des{
     padding-bottom: 20px;
 }
@@ -504,7 +517,7 @@ p .fl-txt-line-bg > em{
     float: left;
     padding:25px;
     padding-bottom: 35px;
-    border: 10px solid #000;
+    border: 10px solid #00327b;
     position: relative;
     z-index: 2;
 }
@@ -540,7 +553,11 @@ p .fl-txt-line-bg > em{
     margin-bottom: 25px;
 }
 .rare-root-feature-head h2 span{
-    color: #1fba9f;
+    color: #00327b;
+}
+.rare-root-feature-wrp ul li.rare-root-feature-3 .rare-root-feature-des,
+.rare-root-feature-wrp ul li.rare-root-feature-1 .rare-root-feature-des{
+    border:10px solid #000;
 }
 
 .pos-powerful-sec{
@@ -599,7 +616,7 @@ p .fl-txt-line-bg > em{
 }
 .yacon-root-headding h2{
     margin: 0;
-    color: #fff;
+    color: #000;
     font-family: 'Merriweather-Black';
     font-size: 40px;
     line-height: 50px;
@@ -642,17 +659,14 @@ p .fl-txt-line-bg > em{
     margin-bottom: 60px;
 }
 .paired-root-sec-wrp {
-    background-color: #0a79a2;
     padding-top: 60px;
     position: relative;
     background-repeat: no-repeat !important;
     background-size: 100% 100% !important;
     background-position: center center !important;
 }
-.pos-powerful-sec,
 .paired-root-sec-wrp,
 .out-stock-sec{
-    background: #0a79a2;
     margin-top: 10px;
 }
 .pos-powerful-sec .container,
@@ -667,9 +681,10 @@ p .fl-txt-line-bg > em{
     right: 0;
     top: -1px;
     z-index: 1;
-    height: 470px;
-    background: center top;
-    background-repeat: repeat-x!important;
+    height: 20px;
+    background-size: cover !important;
+    background-repeat: no-repeat!important;
+    background-position: center center !important;
 }
 .btm-wave-img{
     position: absolute;
@@ -677,9 +692,10 @@ p .fl-txt-line-bg > em{
     right: 0;
     bottom: -1px;
     z-index: 1;
-    height: 440px;
-    background: center bottom;
-    background-repeat: repeat-x!important;
+    height: 20px;
+    background-size: cover !important;
+    background-repeat: no-repeat!important;
+    background-position: center center !important;
 }
 
 .paired-root-sec-wrp:after{
@@ -692,7 +708,7 @@ p .fl-txt-line-bg > em{
 
 }
 .paired-root-sec-wrp .rare-root-feature-wrp ul li .rare-root-feature-des{
-    border-color: #fff;
+    border-color: #00327b;
 }
 
 .paired-root-sec-wrp .rare-root-feature-des{
@@ -700,24 +716,24 @@ p .fl-txt-line-bg > em{
 }
 .paired-root-sec-wrp .rare-root-feature-des h2{
     margin: 0;
-    color: #fff;
+    color: #000;
     line-height: 55px;
     margin-bottom: 30px;
     font-family: 'Merriweather-Black';
 }
 .paired-root-sec-wrp .rare-root-feature-des p{
-    color: #fff;
+    color: #000;
     padding-right: 160px;
 }
 .ye-remove-line-headding h3{
     margin: 0;
-    color: #fff;
+    color: #000;
     text-align: center;
     font-family: 'Merriweather-Black';
     margin-bottom: 15px;
 }
 .dft-text-module{
-    color: #fff;
+    color: #000;
     padding-top: 8px;
 }
 
@@ -754,7 +770,7 @@ p .fl-txt-line-bg > em{
     background-position: center center !important;
 }
 .health-risks-dsc{
-    color: #fff;
+    color: #000;
 }
 .health-risks-dsc h5{
     margin: 0;
@@ -829,6 +845,7 @@ p .fl-txt-line-bg > em{
     font-family: 'Merriweather-Black';
     text-align: center;
     margin-bottom: 30px;
+    color: #000;
 }
 .out-stock-sec-grd-img-1{
     padding-top: 10px;
@@ -927,7 +944,7 @@ p .fl-txt-line-bg > em{
 .fl-pkg-sec-bg-hdr h2{
     font-family: 'Merriweather-Black';
     margin-top: 0;
-    color: #fff;
+    color: #000;
     text-align: center;   
     margin-bottom: 0;
 }
