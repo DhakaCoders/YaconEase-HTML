@@ -483,10 +483,11 @@ p .fl-txt-line-bg > em{
 .rare-root-feature-wrp.rare-root-feature-wrp-2 ul li{
     padding-bottom: 70px;
 }
-.rare-root-feature-wrp.rare-root-feature-wrp-2  .rare-root-feature-1 img {
+.rare-root-feature-wrp.rare-root-feature-wrp-2 .rare-root-feature-1 img {
     max-width: 400px;
     right: 82px;
     bottom: 10px;
+    width: 100%;
 }
 
 .rare-root-feature-wrp ul li:nth-child(2n+2){
